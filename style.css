@@ -1,0 +1,355 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* font-size: 20px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+}
+.nav1{
+    height: 67px;
+    width: 100%;
+    color: white;
+    background-color: #e21b70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    /* position: fixed; */
+}
+button{
+    background-color: #e21b70;
+    color: white;
+    border: 1px white solid;
+    padding: 13px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:  white;
+    color: #e21b70;
+}
+.nav2{
+    height: 60px;
+    width: 100%;
+    color: white;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+    font-weight: bolder;
+    /* position: fixed; */
+     /* position: fixed; */
+    /* margin-right: 20px; */
+}
+#img1{
+    /* margin-top: 10px; */
+    height: 30px;
+    width: 170px;
+    margin-right: 700px;
+    margin-left: 150px;
+}
+#signup{
+    padding: 4px 15px 4px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 3px #e21b70 solid ;
+}
+#signup:hover{
+    padding: 4px 15px 4px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #ba175e;
+    border-color: #ba175e;
+    color:white;
+}
+#login{
+    padding: 4px 15px 4px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: white;
+    color: #e21b70;
+    border: 1px #e21b70 solid;
+
+}
+#login:hover{
+    background-color: rgb(245, 226, 226);
+    padding:9px 18px 9px 18px ;
+    border-color: #e21b70;
+}
+#findfood{
+    padding: 4px 15px 5px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #e21b70;
+    color: rgb(235, 233, 233);
+    border: 1px #e21b70 solid;
+    /* margin: 0%; */
+    margin-left: 3px;
+}
+#findfood:hover{
+background-color:#ba175e;
+color: rgb(235, 233, 233);
+/* padding:7px 16px 7px 16px ;  */
+
+border-color: #ba175e;;
+}
+select{
+    font-size: 15px;
+    padding: 7px 15px 7px 15px;
+    border: none;
+    font-weight: 600;
+}
+select:hover{
+    background-color: rgb(245, 226, 226);
+    border-radius: 10px;
+}
+.container{ 
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+    background-color:rgb(243, 241, 241);
+    height: 600px;
+    width: 100%;
+
+} 
+.box1{
+    width: 50%;
+    padding: 200px 90px 100px 120px;
+    justify-content: center;
+     
+}
+.start{
+    font-size: 40px;
+}
+.start2{
+    font-size: 36px;
+}
+h1{
+    font-weight: 400;
+    font-size: 100px;
+    color: rgb(50, 47, 47);
+}
+#inputsection{
+    margin: 10px;
+     /* padding: 4px 250px 4px 5px;  */
+     padding-left: 8px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+    font-size: 20px;
+    height: 37px;
+    width: 550px;
+    font-size: large;  
+}
+#input{
+    border:0px solid;
+    border-radius: 15px;
+    padding: 8px 8px 8px 5px;
+    background-color: white;
+    width: 102%;
+    margin-top: 25px;
+}
+.box2{
+    width: 50%;
+    overflow: hidden;    
+}
+.text{
+    /* margin-left: 100px; */
+    /* font-size: larger; */
+}
+
+.div1{
+     height: 400px;
+    width: 100%;  
+    /* overflow: hidden; */
+ 
+    background-image: url(./images/home-vendor-pk.webp);
+    background-size: cover;
+    background-position: center;
+}
+ /* img{
+    height: auto;
+    width: 100%;
+    background-position-y: center;
+
+}   */
+.banner{
+    height: 300px;
+    width: 600px;
+    background-color:white;
+    color: black;
+    /* font-size: larger; */
+    margin: -150px 0px 0px 150px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px 1px rgb(187, 186, 186);
+
+} 
+div>h1{
+    font-size: 28px;
+}
+div>p{
+    font-size: 17px;
+}
+div>button{
+    border-radius: 7px;
+}
+div>button:hover{
+    background-color:#ba175e;
+    color: rgb(251, 246, 246);    
+}
+.text2{
+    margin-left: 175px;
+}
+.main{
+    height: 2200px;
+    width: 85%;
+    margin: 20px 150px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    /* padding: 15px; */
+}
+.inside{
+    margin-left: 20px;
+}
+.text0{
+    height: auto;
+    width: 150px;
+    background-color: white;
+    color: black;
+    padding: 7px;
+    border-radius: 10px;
+    margin: -45px 0px 0px 5px;
+    text-align: center;
+    
+}
+.box{
+    height: 250px;
+    width: 300px;
+    background-image: url(./images//Islamabad.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+} 
+ .box:hover{
+    background-image:  url(./images//Islamabad.webp);
+    background-size: contain;
+    background-repeat: no-repeat
+} 
+.pinktext{
+   margin-left: 175px;
+   font-size: xx-large;
+}
+.pinkcontainer{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    background-color: #e21b70;
+    color: white;
+    margin:  15px 0px 0px 175px;
+    border-radius: 15px;
+    justify-content: flex-end;
+}
+.head1{
+    font-size: x-large;
+}
+   
+  .textinpink{ 
+    margin-top: 30px;
+     margin-right: 60px; 
+}  
+.mobile{
+    width: 50%;
+}
+.mobile>img{
+    margin: -80px 0px 0px 70px;
+}
+.scanner{
+    display: flex;    
+}
+.div>img{
+    border: 2px white solid;
+}
+.scanimg{
+    border: 2px white solid;
+    margin-right: 15px;
+    padding: 5px;
+}
+.blackcontainer{
+    height: 60px;
+    width: 500px;
+    display: flex;
+    /* margin: 30px; */
+    /* background-color: blue; */
+}
+.blackbox{
+    height: auto;
+    width: 100px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    padding: 5px 0px 7px 0px ;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px white solid;
+}
+.banner2{
+    height: 190px;
+    width: 600px;
+    background-color:white;
+    color: black;
+    /* font-size: larger; */
+    margin: -150px 0px 0px 150px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px 1px rgb(187, 186, 186);
+}
+
+
+.div2{
+    height: 400px;
+   width: 100%;  
+   /* overflow: hidden; */
+
+   background-image: url(./images/home-corporate-pk.webp);
+   background-size: cover;
+   background-position: center;
+}
+.last{
+    width: 80%;
+  
+    margin-left: 10%;
+}
+h2{
+    font-size: 35px;
+    line-height: 27px;
+    color: rgb(50, 50, 50);
+}
+.new{
+    display: block;
+    /* list-style-type: square; */
+}
+h3{
+    font-size: 30px;
+    color: rgb(42, 42, 42);
+}
+h4{
+    font-size: 22px;
+    color: rgb(41, 41, 41);
+}
+span{
+    color: #e21b70;
+}
+
+
+
